@@ -87,7 +87,7 @@ public class Minecode extends JavaPlugin implements Listener {
 		saveDefaultConfig();
 		
 		cm = new CraftManager();
-		bm = new BlockManager();d
+		bm = new BlockManager();
 		im = new ItemManager();
 		
 		//load blocks
