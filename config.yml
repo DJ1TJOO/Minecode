@@ -1,0 +1,90 @@
+blocks:
+  block1:
+    name: purpleblock
+    nbtname: purpleblock
+    id: minecraft:stone
+    dropitem: true
+    tools:
+    - axe
+    - pickaxe
+    - sword
+    - hoe
+    - shovel
+    - hand
+    types:
+    - wood
+    - stone
+    - iron
+    - gold
+    - diamond
+    drops:
+      wool:
+        id: minecraft:white_wool
+        amount: 10
+items:
+  item1:
+    name: purplechestplate
+    nbtname: purplearmor
+    id: minecraft:diamond_chestplate
+    type: armor
+    enchantments:
+      enchament1:
+        level: 10
+        enchantment: minecraft:respiration
+    attributes:
+      attribute1:
+        type: armor
+        slot: body
+        operation: 0
+        amount: 4
+      attribute2:
+        type: maxhealth
+        slot: body
+        operation: 0
+        amount: 6
+      attribute3:
+        type: armortoughness
+        slot: body
+        operation: 0
+        amount: 4
+  item2:
+    name: purpleapple
+    nbtname: purpleapple
+    id: minecraft:apple
+    type: food
+    properties:
+      property1:
+        name: saturation
+        value: 20.0
+      property2:
+        name: foodlevel
+        value: 4
+crafting:
+  craft1:
+    name: test
+    result:
+      item: customblock:purplestone
+      amount: 1
+    ingredients:
+    - minecraft:stone
+    recipe:
+    - '!'
+    - '!'
+    - '!'
+    - '!'
+    - )
+    - '!'
+    - '!'
+    - '!'
+    - '!'
+furnace:
+  furn1:
+    xp: 0
+    name: craftpurpleapple
+    cookingtime: 20
+    result:
+      id: customitem:purpleapple
+      amount: 1
+    ingredient:
+      id: minecraft:apple
+      amount: 1

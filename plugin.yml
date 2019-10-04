@@ -1,0 +1,15 @@
+name: Minecode
+version: 0.5.4
+description: Minecode
+author: DJ1TJOO
+main: me.DJ1TJOO.minecode.Minecode
+api-version: 1.14
+commands:
+  customblock:
+    usage: /customblock
+    description: customblock
+  customitem:
+    usage: /customitem
+    description: customitem
+
+
