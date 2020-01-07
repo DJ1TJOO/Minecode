@@ -7,6 +7,8 @@ import net.minecraft.server.v1_14_R1.NBTTagString;
 
 public class Attribute {
 
+	public static int counter = 0;
+	
 	String name, attributeName, slot;
 	int operation, uuidLeast, uuidMost;
 	boolean integer;
